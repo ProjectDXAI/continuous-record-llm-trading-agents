@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this record, please cite it as below."
+title: "A Continuous Record of Onchain LLM Trading Agents: Operating-Layer Findings from Two Production Systems"
+authors:
+  - family-names: Barton
+    given-names: T.J.
+  - family-names: Constantakis
+    given-names: Chris
+  - family-names: Hauseman
+    given-names: Patti
+  - family-names: Mous
+    given-names: Annie
+  - family-names: Hoffman
+    given-names: Alaska
+  - family-names: Bergeron
+    given-names: Brian
+  - family-names: Goodreau
+    given-names: Hunter
+year: 2026
+type: report
+publisher: DX Research Group
+url: https://github.com/ProjectDXAI/continuous-record-llm-trading-agents
+notes: "arXiv identifier added at publication. Public datasets: https://www.dxrg.ai/research"
