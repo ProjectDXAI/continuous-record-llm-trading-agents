@@ -1,4 +1,4 @@
-Ancillary data for "A Continuous Record of Onchain LLM Trading Agents" (DXRG, 2026).
+Ancillary data for "What LLM Trading Agents Actually Do in Production" (DXRG, 2026).
 Aggregate extracts behind the figures; no per-user or per-position rows.
 
 dxap_daily_turns.csv    Fig. 1: DXAP daily active agents and finalized turns, Jun 8 - Aug 15, 2026

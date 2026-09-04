@@ -1,4 +1,4 @@
-# A Continuous Record of Onchain LLM Trading Agents
+# What LLM Trading Agents Actually Do in Production
 
 **Operating-layer findings from two production systems: DX Terminal Pro (3,505 user-funded vaults, real ETH, 21 days) and the DXAP live alpha fleet (500–599 agents, Hyperliquid perps, 69 days, 231,638 recorded turns).**
 
@@ -54,8 +54,8 @@ The versioned public datasets behind this record live at [dxrg.ai/research](http
 ## Citation
 
 ```bibtex
-@misc{barton2026continuous,
-  title   = {A Continuous Record of Onchain LLM Trading Agents: Operating-Layer Findings from Two Production Systems},
+@misc{barton2026production,
+  title   = {What LLM Trading Agents Actually Do in Production: A Six-Month, Population-Scale Record from Two Fleets},
   author  = {Barton, T.J. and Constantakis, Chris and Hauseman, Patti and Mous, Annie and Hoffman, Alaska and Bergeron, Brian and Goodreau, Hunter},
   year    = {2026},
   note    = {DX Research Group preprint},

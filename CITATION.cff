@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this record, please cite it as below."
-title: "A Continuous Record of Onchain LLM Trading Agents: Operating-Layer Findings from Two Production Systems"
+title: "What LLM Trading Agents Actually Do in Production: A Six-Month, Population-Scale Record from Two Fleets"
 authors:
   - family-names: Barton
     given-names: T.J.
