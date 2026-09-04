@@ -1,0 +1,153 @@
+{
+ "asof": "2026-08-15 14:00:09",
+ "days": 4,
+ "size_band": [
+  1000,
+  100000
+ ],
+ "hl_sample": 1961,
+ "acct_roi": {
+  "day": {
+   "hl_med": -0.04,
+   "hl_pos": 47,
+   "our_med": 0.0,
+   "our_pos": 11,
+   "hl_n": 2699,
+   "our_n": 106
+  },
+  "week": {
+   "hl_med": 0.33,
+   "hl_pos": 53,
+   "our_med": 0.0,
+   "our_pos": 15,
+   "hl_n": 4828,
+   "our_n": 117
+  }
+ },
+ "exec": {
+  "hl_winrate": [
+   53,
+   55,
+   54,
+   54,
+   55
+  ],
+  "our_winrate": [
+   44,
+   46,
+   42,
+   31,
+   42
+  ],
+  "hl_long_ct": [
+   64,
+   59,
+   57,
+   59,
+   64
+  ],
+  "our_long_ct": [
+   79,
+   81,
+   81,
+   70,
+   78
+  ]
+ },
+ "roundtrips": {
+  "hl": {
+   "n": 16009,
+   "hold_med_h": 2.18,
+   "win": 50,
+   "ret_med": 0.002
+  },
+  "ours": {
+   "n": 353,
+   "hold_med_h": 2.05,
+   "win": 41,
+   "ret_med": -0.094
+  },
+  "our_ret_by_holdbucket": {
+   "<1h": -0.15,
+   "1-4h": -0.09,
+   "4-12h": 0.04,
+   "12-24h": 0.0,
+   "24h+": 0.23
+  }
+ },
+ "leverage": {
+  "hl_eff_med": 0.022,
+  "hl_eff_mean": 0.26,
+  "our_eff_med": 0.096,
+  "our_eff_mean": 1.14,
+  "our_set_med": 5.0
+ },
+ "assets": {
+  "hl_top": [
+   [
+    "BTC",
+    32
+   ],
+   [
+    "ETH",
+    9
+   ],
+   [
+    "xyz:SPCX",
+    5
+   ],
+   [
+    "xyz:SKHX",
+    5
+   ],
+   [
+    "xyz:SNDK",
+    5
+   ],
+   [
+    "SOL",
+    4
+   ]
+  ],
+  "our_top": [
+   [
+    "XYZ:SNDK",
+    11
+   ],
+   [
+    "XYZ:NBIS",
+    9
+   ],
+   [
+    "XYZ:SKHY",
+    7
+   ],
+   [
+    "XYZ:SPCX",
+    7
+   ],
+   [
+    "CRV",
+    4
+   ],
+   [
+    "XYZ:DELL",
+    4
+   ]
+  ]
+ },
+ "market": {
+  "assets": [
+   "BTC",
+   "ETH",
+   "SOL"
+  ],
+  "our_daily_acct_roi": [
+   -0.35,
+   0.35,
+   0.19,
+   -0.6,
+   0.0
+  ]
+ }
+}

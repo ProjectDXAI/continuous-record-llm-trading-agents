@@ -1,0 +1,13 @@
+posture,1,2,3,4,5
+breadth/regime,0.0,0.0,0.0,1.0,0.0
+carry/funding,0.0,0.0,6.0,2.0,1.0
+core/patient,0.0,0.0,0.0,32.0,0.0
+mean-reversion,0.0,2.0,7.0,3.0,4.0
+microstructure,0.0,0.0,0.0,0.0,0.0
+momentum,0.0,0.0,0.0,0.0,128.0
+pairs/relative,0.0,0.0,1.0,0.0,0.0
+session/time,0.0,0.0,0.0,7.0,0.0
+silent,0.0,0.0,1.0,0.0,0.0
+squeeze/positioning,0.0,0.0,1.0,1.0,2.0
+thin,0.0,0.0,0.0,0.0,0.0
+vague/other,0.0,0.0,3.0,0.0,3.0

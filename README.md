@@ -43,6 +43,8 @@ The measurement record of LLM trading agents operating under production conditio
 
 ## Data availability
 
+The aggregate extracts behind Figures 1, 2, 3, 5, and 8 are in [`data/`](data/) (also shipped as arXiv ancillary files); `data/README.md` maps each file to its figure.
+
 The versioned public datasets behind this record live at [dxrg.ai/research](https://www.dxrg.ai/research) (JSON + CSV): the benchmark card, the guardrail matrix, mandate-compilation evidence, the state-and-memory checklist and evaluation fixtures, the execution-reconciliation matrix, the trace-feedback registry, the harness-transfer evaluation card, the benchmark audit registry, and the prompt-compilation ablation registry. Each dataset lists the articles that present it.
 
 ## Related work from the lab

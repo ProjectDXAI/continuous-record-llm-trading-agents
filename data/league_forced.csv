@@ -1,0 +1,5 @@
+model,cells,cond_regret_bps,ci_lo,ci_hi,rank_pct,p_best,holm_p_vs_leader,dir_hit,complied,flip_rate,spend_usd
+claude-fable-5,280,269.32,205.87,334.21,0.508,0.568,,0.47,0.996,0.35,129.13
+qwen3.7-plus,280,276.15,212.16,348.02,0.504,0.19,0.2716,0.48,0.871,0.95,6.16
+BASE random-forced,280,276.84,223.07,337.54,0.494,0.21,,0.46,1.0,,0.0
+qwen3.7-max,280,280.83,209.78,355.0,0.486,0.032,0.107,0.45,0.946,0.9,16.97
