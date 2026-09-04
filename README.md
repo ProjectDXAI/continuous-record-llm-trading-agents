@@ -4,7 +4,7 @@
 
 **Links:** [Paper (arXiv, link at publication)](https://arxiv.org) · [Companion page (dxrg.ai)](https://www.dxrg.ai/blogs/operating-layer-controls-paper) · [Public datasets (dxrg.ai/research)](https://www.dxrg.ai/research) · [DX Terminal Pro paper (arXiv:2604.26091)](https://arxiv.org/abs/2604.26091)
 
-DX Research Group (DXRG) · August 2026 · Contact: poof@dxrg.ai
+DX Research Group (DXRG) · September 2026 · Contact: poof@dxrg.ai
 
 ---
 
