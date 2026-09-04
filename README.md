@@ -10,7 +10,7 @@ DX Research Group (DXRG) · August 2026 · Contact: poof@dxrg.ai
 
 ## What this is
 
-The measurement record of LLM trading agents operating under production conditions at population scale. One lab, two systems, six months, every turn logged. We report what the operating layer around the model does to behavior, what it cannot fix, and the methodology rules we now require after retracting two of our own claims.
+The measurement record of LLM trading agents operating under production conditions at population scale. One lab, two systems, six months, every turn logged. We report what the operating layer around the model does to behavior, what it cannot fix, and the methodology rules we now require after retracting three of our own claims.
 
 ## The record at a glance
 
