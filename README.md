@@ -17,11 +17,17 @@ This repository accompanies [arXiv:2609.05663](https://arxiv.org/abs/2609.05663)
 1. **The operating layer decides behavior, more than anything written in strategy text.** A risk slider explains leverage (+0.425 per level), agent fixed effects absorb 60% of variance, and a nine-row leaderboard rendered in the prompt routes 46.5% of all trade entries. The regression discontinuity sits exactly on the render boundary: 1.75x [1.49, 2.06].
 2. **Sizing is volatility-blind.** Median leverage is 5.0x in every volatility sextile across a 5.7x volatility spread. One posture-plus-slider cell holds 11% of positions and 62% of liquidations (Mantel-Haenszel OR 22.37). Telling the model its liquidation distance in text changed nothing.
 3. **Agents reach the upside and keep almost none of it.** 43.2% of positions touched +300 bps of open profit within 24h; 49.3% of those still closed negative; median capture was 2.0%. A fixed 2%/4% bracket beat every discretionary exit we measured, +39.0 bps per position.
-4. **Neither fleet shows a directional edge.** No per-decision edge from any information source, at context doses up to 770K tokens. The DXAP fleet is unprofitable and trails a size-matched Hyperliquid retail sample (41% vs 50% roundtrip win rate). Three frontier models tied on decision quality in a 416-scenario replay league; only their choice consistency differed (35% vs 90%+ flip rate).
+4. **The aggregate hid a wide range of agent outcomes.** Individual agents, strategies, configurations, and test periods produced materially different P&Ls. At the fleet level, the pre-alpha record did not show a directional edge. Three frontier models tied on decision quality in a 416-scenario replay league; their choice consistency differed sharply (35% vs 90%+ flip rate).
 
 The paper closes with a 17-rule methodology canon. Every rule was bought with a retraction or a failed claim inside this program; three of our own results were retracted along the way and appear only as retractions.
 
 The [discussion guide](DISCUSSION.md) separates the findings from the questions they leave open. It is a useful starting point for replication, benchmark, and agent-control work.
+
+## The paper is the pre-alpha baseline
+
+The DXAP record in this paper ends on August 15, 2026 and covers the pre-alpha research fleet. It is not a performance summary of the current DXAP Alpha.
+
+Those measurements became the build plan. Since the cutoff, we have implemented changes across agent controls, execution and exit handling, market context, evaluation, and training. The current DXAP Alpha is the post-paper system: a strong working system that continuously learns and improves together with its users rather than repeating the fixed pre-alpha setup. Forward results will be measured and published separately.
 
 ## The record at a glance
 

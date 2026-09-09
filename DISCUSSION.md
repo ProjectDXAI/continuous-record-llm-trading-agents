@@ -1,6 +1,6 @@
 # Discussion guide
 
-This paper is a measurement record, not a claim that language-model agents have learned a profitable trading policy. The two fleets share one design lineage, and neither shows a directional edge. The useful result is a set of observed failure modes and control questions that can be tested elsewhere.
+This paper is the measurement record for DXAP's pre-alpha research phase, not a snapshot of the current Alpha. Individual agents, strategies, configurations, and test periods produced widely different P&Ls even where the fleet aggregate did not show a directional edge. Those findings became the implementation agenda: the post-cutoff system includes changes to agent controls, execution and exits, market context, evaluation, and training. The current DXAP Alpha is a strong working system that continuously learns and improves together with its users, with forward results measured separately.
 
 ## Questions for follow-up work
 
