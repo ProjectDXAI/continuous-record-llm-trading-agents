@@ -19,5 +19,14 @@ authors:
 year: 2026
 type: report
 publisher: DX Research Group
-url: https://github.com/ProjectDXAI/continuous-record-llm-trading-agents
-notes: "arXiv identifier added at publication. Public datasets: https://www.dxrg.ai/research"
+date-released: 2026-09-04
+doi: 10.48550/arXiv.2609.05663
+url: https://arxiv.org/abs/2609.05663
+repository-code: https://github.com/ProjectDXAI/continuous-record-llm-trading-agents
+identifiers:
+  - type: doi
+    value: 10.48550/arXiv.2609.05663
+  - type: other
+    value: arXiv:2609.05663
+    description: arXiv identifier
+notes: "Public aggregate data and figure artifacts: https://github.com/ProjectDXAI/continuous-record-llm-trading-agents"

@@ -6,11 +6,11 @@
 
 ### A Six-Month, Population-Scale Record from Two Fleets
 
-[![arXiv](https://img.shields.io/badge/arXiv-pending-b31b1b.svg)](https://arxiv.org) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE) [![Data](https://img.shields.io/badge/data-dxrg.ai%2Fresearch-2dd4bf.svg)](https://www.dxrg.ai/research) [![Prior paper](https://img.shields.io/badge/prior_paper-arXiv%3A2604.26091-b31b1b.svg)](https://arxiv.org/abs/2604.26091)
+[![arXiv](https://img.shields.io/badge/arXiv-2609.05663-b31b1b.svg)](https://arxiv.org/abs/2609.05663) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE) [![Data](https://img.shields.io/badge/data-dxrg.ai%2Fresearch-2dd4bf.svg)](https://www.dxrg.ai/research) [![Prior paper](https://img.shields.io/badge/prior_paper-arXiv%3A2604.26091-b31b1b.svg)](https://arxiv.org/abs/2604.26091)
 
 **DX Research Group (DXRG) · September 2026 · [paper.pdf](paper.pdf) · contact poof@dxrg.ai**
 
-Six months of LLM trading agents in production, every turn logged. DX Terminal Pro ran 3,505 user-funded vaults trading real ETH on Base for 21 days. The DXAP live alpha fleet ran 500 to 599 user-created agents on Hyperliquid perpetuals for 69 days: 231,638 recorded turns and 14,596 fills. This repo holds the paper, the figures, the aggregate data behind them, and the share cards.
+This repository accompanies [arXiv:2609.05663](https://arxiv.org/abs/2609.05663). It records two deployments with one design lineage: 3,505 user-funded DX Terminal Pro vaults trading real ETH on Base for 21 days, then a DXAP live alpha fleet of 500 to 599 user-created agents on Hyperliquid perpetuals for 69 days. The DXAP record contains 231,638 finalized turns and 14,596 fills. This repository holds the paper, figures, aggregate extracts, and reusable share cards.
 
 ## Four findings
 
@@ -20,6 +20,8 @@ Six months of LLM trading agents in production, every turn logged. DX Terminal P
 4. **Neither fleet shows a directional edge.** No per-decision edge from any information source, at context doses up to 770K tokens. The DXAP fleet is unprofitable and trails a size-matched Hyperliquid retail sample (41% vs 50% roundtrip win rate). Three frontier models tied on decision quality in a 416-scenario replay league; only their choice consistency differed (35% vs 90%+ flip rate).
 
 The paper closes with a 17-rule methodology canon. Every rule was bought with a retraction or a failed claim inside this program; three of our own results were retracted along the way and appear only as retractions.
+
+The [discussion guide](DISCUSSION.md) separates the findings from the questions they leave open. It is a useful starting point for replication, benchmark, and agent-control work.
 
 ## The record at a glance
 
@@ -64,7 +66,7 @@ The versioned public datasets behind DXRG's published work live at [dxrg.ai/rese
 ## Related work from the lab
 
 - [Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital](https://arxiv.org/abs/2604.26091) (arXiv:2604.26091): the reliability-engineering record of DX Terminal Pro. It deferred the trace-level behavioral analysis that this paper delivers.
-- Companion page on dxrg.ai: live at announcement.
+- [DXRG research companion](https://www.dxrg.ai/blogs/continuous-record-paper): the citation record, evidence boundaries, and links to related research. DXAP remains the product surface; this page is the durable research reference.
 
 ## Citation
 
@@ -73,10 +75,15 @@ The versioned public datasets behind DXRG's published work live at [dxrg.ai/rese
   title   = {What LLM Trading Agents Actually Do in Production: A Six-Month, Population-Scale Record from Two Fleets},
   author  = {Barton, T.J. and Constantakis, Chris and Hauseman, Patti and Mous, Annie and Hoffman, Alaska and Bergeron, Brian and Goodreau, Hunter},
   year    = {2026},
-  note    = {DX Research Group preprint; arXiv identifier added at announcement},
-  url     = {https://github.com/ProjectDXAI/continuous-record-llm-trading-agents}
+  eprint  = {2609.05663},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  doi     = {10.48550/arXiv.2609.05663},
+  url     = {https://arxiv.org/abs/2609.05663}
 }
 ```
+
+Machine-readable records are available in [`CITATION.cff`](CITATION.cff) and [`CITATION.bib`](CITATION.bib).
 
 ## License
 
