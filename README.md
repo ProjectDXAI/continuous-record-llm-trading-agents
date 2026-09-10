@@ -61,9 +61,20 @@ All eight figures are in [`figures/`](figures/) as 300-dpi PNG; the paper uses t
 
 ## Data
 
-[`data/`](data/) holds the aggregate extracts behind Figures 1, 2, 3, 5, and 8, the same files shipped as arXiv ancillary files. [`data/README.md`](data/README.md) maps each file to its figure. No per-user or per-position rows are published.
+[`data/`](data/) holds the aggregate extracts behind Figures 1, 2, 3, 5, and 8, the same files shipped as arXiv ancillary files. [`data/README.md`](data/README.md) maps each file to its figure. Those figure extracts contain no per-user or per-position rows. The separately linked workflow excerpts below are de-identified illustrative records.
 
 The versioned public datasets behind DXRG's published work live at [dxrg.ai/research](https://www.dxrg.ai/research): the benchmark card, the guardrail matrix, mandate-compilation evidence, the state-and-memory checklist and evaluation fixtures, the execution-reconciliation matrix, the trace-feedback registry, the harness-transfer evaluation card, the benchmark audit registry, and the prompt-compilation ablation registry.
+
+## Hugging Face datasets and workflow excerpts
+
+The reviewed research package is available as two separate datasets:
+
+- [Terminal Pro research aggregates](https://huggingface.co/datasets/DXRG/dx-terminal-pro-research-aggregates): four historical market-behavior records and five reported control/setting records, with source definitions and sample-size limits.
+- [DXAP historical workflow excerpts](https://huggingface.co/datasets/DXRG/dxap-research-workflow-excerpts): three de-identified July paper-execution cases, sanitized request/response projections, starting states, research-child records and proposed scenario questions, plus the complete selection-rank aggregate. Start with the [detailed case studies](https://huggingface.co/datasets/DXRG/dxap-research-workflow-excerpts/blob/main/CASE_STUDIES.md).
+
+Both have dataset cards and `datasets.load_dataset` configurations. [Download the combined research package](https://github.com/ProjectDXAI/continuous-record-llm-trading-agents/releases/download/research-data-v1.1/dxrg-research-package-v1.1.zip).
+
+The excerpts preserve failures and recovery while withholding participant identities, prompts, strategy text and trade-specific values. They are a small explanatory sample, not full reproducible trajectories or a validated trading benchmark. The broader scenario benchmark and harness/model-training test collection remain work in progress.
 
 ## Share cards
 
@@ -93,4 +104,4 @@ Machine-readable records are available in [`CITATION.cff`](CITATION.cff) and [`C
 
 ## License
 
-Paper text, figures, and cards: [CC BY 4.0](LICENSE). Dataset terms as listed with each dataset at dxrg.ai/research.
+Paper text, figures, and cards: [CC BY 4.0](LICENSE). Dataset terms are listed with each dataset at dxrg.ai/research and in the linked Hugging Face dataset cards.
